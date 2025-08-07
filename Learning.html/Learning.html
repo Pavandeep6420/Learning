@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Learning Platform</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+  padding: 20px;
+}
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 20px;
+}
+header h1 {
+  display: inline;
+}
+nav ul {
+  list-style: none;
+  float: right;
+}
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.onboarding, .courses {
+  margin: 20px 0;
+}
+.onboarding button {
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.course-card {
+  background: white;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+video {
+  width: 100%;
+  margin-top: 10px;
+}
+.progress-container {
+  background: #ddd;
+  height: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.progress-bar {
+  height: 10px;
+  background: #27ae60;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  background: #ecf0f1;
+}
+
+  </style>
+  
+
+</head>
+<body>
+  
+
+  <header>
+    <h1>Learnify</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="onboarding">
+    <h2>Welcome Back, Learner!</h2>
+    <p>Complete your profile to start learning.</p>
+    <button onclick="completeProfile()">Complete Profile</button>
+  </section>
+
+  <section class="courses">
+    <h2>Your Courses</h2>
+    <div class="course-card">
+      <h3>HTML for Beginners</h3>
+      <video controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 40%"></div>
+      </div>
+      <p>Progress: 40%</p>
+    </div>
+
+    <div class="course-card">
+      <h3>CSS Fundamentals</h3>
+      <video controls>
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 70%"></div>
+      </div>
+      <p>Progress: 70%</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Learnify. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+  padding: 20px;
+}
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 20px;
+}
+header h1 {
+  display: inline;
+}
+nav ul {
+  list-style: none;
+  float: right;
+}
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.onboarding, .courses {
+  margin: 20px 0;
+}
+.onboarding button {
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.course-card {
+  background: white;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+video {
+  width: 100%;
+  margin-top: 10px;
+}
+.progress-container {
+  background: #ddd;
+  height: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.progress-bar {
+  height: 10px;
+  background: #27ae60;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  background: #ecf0f1;
+}
